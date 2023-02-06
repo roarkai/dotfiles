@@ -1,4 +1,4 @@
-# dotfiles
+# dotfiles for Macbook
 Configeration files for rk's macbook. Include:
 
 * .zshrc
