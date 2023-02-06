@@ -1,5 +1,5 @@
 # dotfiles
-Configeration files shared among rk's mac and servers. Include:
+Configeration files for rk's macbook. Include:
 
 * .zshrc
 * .vimrc
