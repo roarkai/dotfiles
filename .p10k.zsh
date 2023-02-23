@@ -34,7 +34,8 @@
     # =========================[ Line #1 ]=========================
     # os_icon               # os identifier
     dir                     # current directory
-    # vcs                     # git status
+    vcs                     # git status
+    anaconda                # conda environment (https://conda.io/)
     # =========================[ Line #2 ]=========================
     newline                 # \n
     prompt_char             # prompt symbol
@@ -51,7 +52,7 @@
     background_jobs         # presence of background jobs
     direnv                  # direnv status (https://direnv.net/)
     asdf                    # asdf version manager (https://github.com/asdf-vm/asdf)
-    virtualenv              # python virtual environment (https://docs.python.org/3/library/venv.html) anaconda                # conda environment (https://conda.io/)
+    virtualenv              # python virtual environment (https://docs.python.org/3/library/venv.html) i
     pyenv                   # python environment (https://github.com/pyenv/pyenv)
     goenv                   # go environment (https://github.com/syndbg/goenv)
     nodenv                  # node.js version from nodenv (https://github.com/nodenv/nodenv)
@@ -103,7 +104,6 @@
     taskwarrior             # taskwarrior task count (https://taskwarrior.org/)
     # cpu_arch              # CPU architecture
     # time                  # current time
-    vcs         # put git status at the right side
     os_icon                 # put os identifier at the end of the line one	
     # =========================[ Line #2 ]=========================
     newline
