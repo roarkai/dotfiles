@@ -14,7 +14,8 @@ Configeration for Macbook would use the following files:
 * .p10k.zsh
 * dotfile_install.sh
 
---------- commands for the configeration --------- 
+--------- commands for the configeration ---------  
+
 for ubuntu servers:
 ./dotfile_ser_install.sh
 
