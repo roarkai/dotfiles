@@ -16,7 +16,7 @@ Configeration for Macbook would use the following files:
 
 --------- commands for the configeration --------- 
 for ubuntu servers:
-$ ./dotfile_ser_install.sh
+./dotfile_ser_install.sh
 
 for Macbook:
-$ ./dotfile_install.sh
+./dotfile_install.sh
