@@ -132,6 +132,9 @@ alias lag='ls -a | grep'    # list all with grep
 alias llg='ls -lh | grep'   # list long(human reading) with grep
 alias lalg='ls -alh |grep'  # list all long(human reading) with grep
 
+# python
+alias python3='/usr/local/bin/python3.10'
+
 # git
 alias gs='git status'
 alias gc='git commit'
@@ -162,3 +165,23 @@ alias tmux="TERM=screen-256color-bce tmux"
 ########################
 bindkey -v
 
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/hummin/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/hummin/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/hummin/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/hummin/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+# For tkinter 
+export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
+# For tkinter 
+export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
