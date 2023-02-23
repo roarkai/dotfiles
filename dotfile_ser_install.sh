@@ -8,12 +8,14 @@ rm ~/.zshrc
 rm ~/.vimrc
 rm ~/.tmux.conf
 rm ~/.p10k.zsh
+rm ~/.xprofile	
 
 # create soft link 
-ln -s -f ~/dotfiles_ser/.tmux.conf.ser ~/.tmux.conf # adapt for theme in ubuntu
+ln -s -f ~/dotfiles_ser/.tmux.conf.ser ~/.tmux.conf 
 ln -s -f ~/dotfiles_ser/.p10k.zsh ~/.p10k.zsh
-ln -s -f ~/dotfiles_ser/.zshrc.ser ~/.zshrc # add conf for conda
+ln -s -f ~/dotfiles_ser/.zshrc.ser ~/.zshrc 
 ln -s -f ~/dotfiles_ser/.vimrc ~/.vimrc
+ln -s -f ~/dotfiles_ser/.xprofile ~/.xprofile
 
 # reconfigure the programs above
 source ~/.zshrc 
