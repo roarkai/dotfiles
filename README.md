@@ -5,6 +5,7 @@ Configeration for ubuntu servers would use the following files:
 * .vimrc
 * .tmux.conf.ser
 * .p10k.zsh
+* .xprofile
 * dotfile_ser_install.sh
 
 Configeration for Macbook would use the following files:
