@@ -8,13 +8,15 @@ rm ~/.zshrc
 rm ~/.vimrc
 rm ~/.tmux.conf
 rm ~/.p10k.zsh
+rm ~/.xprofile	
 
 ## create soft link 
-# Mac special
-ln -s -f ~/dotfiles/.zshrc ~/.zshrc
+# server special
+ln -s -f ~/dotfiles/.zshrc.ser ~/.zshrc 
+ln -s -f ~/dotfiles/.xprofile ~/.xprofile
 
-# list bellow is the same as server version
-ln -s -f ~/dotfiles/.tmux.conf ~/.tmux.conf
+# list below is the same as Mac version
+ln -s -f ~/dotfiles/.tmux.conf ~/.tmux.conf 
 ln -s -f ~/dotfiles/.p10k.zsh ~/.p10k.zsh
 ln -s -f ~/dotfiles/.vimrc ~/.vimrc
 

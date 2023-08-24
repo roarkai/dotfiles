@@ -1,5 +1,5 @@
 #-------------------------------------------------------#
-# Key bindings
+# Key binds
 #-------------------------------------------------------#
 
 ## rebind prefix
@@ -17,6 +17,10 @@ bind c new-window -c "#{pane_current_path}"
 ## session control
 bind X confirm-before kill-session
 
+#-------------------------------------------------------#
+# Vim style key settings
+#-------------------------------------------------------#
+
 # use hjkl to change panes
 bind-key k select-pane -U
 bind-key j select-pane -D
@@ -28,10 +32,6 @@ bind -r K resizep -U 5
 bind -r J resizep -D 5
 bind -r H resizep -L 5 
 bind -r L resizep -R 5
-
-#-------------------------------------------------------#
-# Vim style edition 
-#-------------------------------------------------------#
 
 # Use vi mode 
 set -g mode-keys vi
@@ -47,14 +47,8 @@ bind ^k clear-history \; display-message "history cleared"
 
 
 #-------------------------------------------------------#
-# Misc
+# 其他 Misc
 #-------------------------------------------------------#
-
-# in copy mode, copying selection also copies to the OS clipboard
-tmux_conf_copy_to_os_clipboard=ture
-
-# faster command sequence
-set -sg repeat-time 600
 
 # Avoid ESC delay
 set -s escape-time 0
@@ -81,8 +75,9 @@ setw -g pane-base-index 1
 # allow local customization in ~/.tmux_local.conf
 # if-shell "[ -f ~/.tmux_local.conf ]" 'source ~/.tmux_local.conf'
 
+
 #-------------------------------------------------------#
-# Theme 
+# 外观 Theme 
 #-------------------------------------------------------#
 
 ## predefine color and icon
@@ -90,7 +85,7 @@ set -g default-terminal "screen-256color"
 color_yellow="colour221"
 color_brightgreen="colour194"
 color_highlight="$color_brightgreen"
-separator_powerline_right=""
+separator_powerline_right=""
 
 ## Windows 
 set -g window-style 'fg=colour247,bg=colour239'
@@ -102,15 +97,13 @@ set -g pane-active-border-style 'fg=blue bg=colour235'
 
 ## Status bar
 set-option -g status on
-set-option -g status-bg default 
-set-option -g status-fg default 
+set-option -g status-bg green
+set-option -g status-fg black
 set-option -g status-justify left 
 
 #  === leftside:
 set -g status-left-length 20
 # set -g status-left "#h #( ~/.tmux/left_status.sh )"
-
-setw -g status-left ' #S |'
 
 #  === rightside:
 set -g status-right-length 50
