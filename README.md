@@ -1,11 +1,11 @@
 dotfiles for Macbook and Ubuntu servers
 
 Configeration for ubuntu servers would use the following files:
-* .zshrc.ser
+* .zshrc.ser  # different from Mac version	
+* .xprofile   # only used in server
 * .vimrc
-* .tmux.conf.ser
+* .tmux.conf
 * .p10k.zsh
-* .xprofile
 * dotfile_ser_install.sh
 
 Configeration for Macbook would use the following files:
