@@ -214,7 +214,7 @@
 
   ##################################[ dir: current directory ]##################################
   # Current directory background color.
-  typeset -g POWERLEVEL9K_DIR_BACKGROUND=2
+  typeset -g POWERLEVEL9K_DIR_BACKGROUND=3
   # Default current directory foreground color.
   typeset -g POWERLEVEL9K_DIR_FOREGROUND=0
   # If directory is too long, shorten some of its segments to the shortest possible unique
@@ -959,7 +959,7 @@
   #####################[ anaconda: conda environment (https://conda.io/) ]######################
   # Anaconda environment color.
   typeset -g POWERLEVEL9K_ANACONDA_FOREGROUND=0
-  typeset -g POWERLEVEL9K_ANACONDA_BACKGROUND=2
+  typeset -g POWERLEVEL9K_ANACONDA_BACKGROUND=3
 
   # Anaconda segment format. The following parameters are available within the expansion.
   #

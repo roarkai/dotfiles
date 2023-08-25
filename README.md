@@ -12,7 +12,7 @@ Configeration for Macbook would use the following files:
 * .zshrc
 * .vimrc
 * .tmux.conf
-* .p10k.zsh
+* .p10k.zsh.mac # change color in p10k to differentiate from server
 * dotfile_install.sh
 
 --------- commands for the configeration ---------  
