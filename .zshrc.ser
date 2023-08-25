@@ -147,7 +147,6 @@ alias s.z='source ~/.zshrc'
 # vim
 alias v='vim'
 alias v.z='vim ~/.zshrc'
-alias v.zs='vim ~/.zshrc.ser'
 alias v.v='vim ~/.vimrc'
 
 # tmux

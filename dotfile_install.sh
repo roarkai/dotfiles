@@ -12,10 +12,10 @@ rm ~/.p10k.zsh
 ## create soft link 
 # Mac special
 ln -s -f ~/dotfiles/.zshrc ~/.zshrc
+ln -s -f ~/dotfiles/.p10k.zsh.mac ~/.p10k.zsh
 
 # list bellow is the same as server version
 ln -s -f ~/dotfiles/.tmux.conf ~/.tmux.conf
-ln -s -f ~/dotfiles/.p10k.zsh ~/.p10k.zsh
 ln -s -f ~/dotfiles/.vimrc ~/.vimrc
 
 # reconfigure the programs above
