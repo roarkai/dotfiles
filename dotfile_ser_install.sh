@@ -13,7 +13,8 @@ rm ~/.xprofile
 ## create soft link 
 # server special
 ln -s -f ~/dotfiles/.zshrc.ser ~/.zshrc 
-ln -s -f ~/dotfiles/.xprofile ~/.xprofile
+# 如果需要配置xprofile，关闭下面一行的备注标记
+# ln -s -f ~/dotfiles/.xprofile ~/.xprofile
 
 # list below is the same as Mac version
 ln -s -f ~/dotfiles/.tmux.conf ~/.tmux.conf 
