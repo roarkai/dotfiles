@@ -13,7 +13,7 @@ rm ~/.xprofile
 ## create soft link 
 # server special
 ln -s -f ~/dotfiles/.zshrc.ser ~/.zshrc 
-# 如果需要配置xprofile，关闭下面一行的备注标记
+# xprofile is used for remapping 'esc' to 'CapsLock', uncommend it if needed  
 # ln -s -f ~/dotfiles/.xprofile ~/.xprofile
 
 # list below is the same as Mac version
