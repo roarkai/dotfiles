@@ -136,6 +136,10 @@ alias python3='/usr/local/bin/python3.10'
 # git
 alias gs='git status'
 alias gc='git commit'
+alias gcm='git commit -m'	
+alias gaa='git add -A'
+alias gp='git pull origin master'
+alias gpu='git push -u origin master'
 
 ## overwrite existing commands for better defaults
 alias mv='mv -i'
@@ -149,6 +153,7 @@ alias s.z='source ~/.zshrc'
 # vim
 alias v='vim'
 alias v.z='vim ~/.zshrc'
+alias v.zs='vim ~/.zshrc.ser'
 alias v.v='vim ~/.vimrc'
 
 # tmux
