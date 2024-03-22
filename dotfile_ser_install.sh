@@ -14,7 +14,7 @@ rm ~/.xprofile
 # server special
 ln -s -f ~/dotfiles/.zshrc.ser ~/.zshrc 
 # xprofile is used for remapping 'esc' to 'CapsLock', uncommend it if needed  
-# ln -s -f ~/dotfiles/.xprofile ~/.xprofile
+ln -s -f ~/dotfiles/.xprofile ~/.xprofile
 
 # list below is the same as Mac version
 ln -s -f ~/dotfiles/.tmux.conf ~/.tmux.conf 
