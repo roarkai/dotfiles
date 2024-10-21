@@ -9,7 +9,7 @@ let g:colors_name = "custom"
 
 " Set the color for various syntax elements
 hi Normal       ctermfg=252 ctermbg=234     " grey
-hi Comment      ctermfg=39                  " brown
+hi Comment      ctermfg=39                  " blue 
 hi Constant     ctermfg=135                 " purple
 hi String       ctermfg=213                 " light pink 
 hi Identifier   ctermfg=208                 " orange
