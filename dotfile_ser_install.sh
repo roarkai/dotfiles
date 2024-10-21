@@ -11,7 +11,7 @@ rm ~/.p10k.zsh
 rm ~/.xprofile	
 
 ## create soft link 
-# server special
+# only for server 
 ln -s -f ~/dotfiles/.zshrc.ser ~/.zshrc 
 # xprofile is used for remapping 'esc' to 'CapsLock', uncommend it if needed  
 ln -s -f ~/dotfiles/.xprofile ~/.xprofile
@@ -19,6 +19,7 @@ ln -s -f ~/dotfiles/.xprofile ~/.xprofile
 # list below is the same as Mac version
 ln -s -f ~/dotfiles/.tmux.conf ~/.tmux.conf 
 ln -s -f ~/dotfiles/.p10k.zsh ~/.p10k.zsh
+ln -s -f ~/dotfiles/rkcolors.vim ~/.vim/colors/rkcolors.vim 
 ln -s -f ~/dotfiles/.vimrc ~/.vimrc
 
 # reconfigure the programs above

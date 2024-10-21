@@ -16,6 +16,7 @@ ln -s -f ~/dotfiles/.p10k.zsh.mac ~/.p10k.zsh
 
 # list bellow is the same as server version
 ln -s -f ~/dotfiles/.tmux.conf ~/.tmux.conf
+ln -s -f ~/dotfiles/rkcolors.vim ~/.vim/colors/rkcolors.vim
 ln -s -f ~/dotfiles/.vimrc ~/.vimrc
 
 # reconfigure the programs above

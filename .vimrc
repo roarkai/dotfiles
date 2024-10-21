@@ -31,6 +31,8 @@ inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
+" ----  colorscheme  ----
+colorscheme rkcolors
 " ----  others  ----
 set noerrorbells visualbell t_vb=  " 关闭提示音
 set mouse+=a     " 支持鼠标 
