@@ -1,5 +1,5 @@
 # apsLock behave like Ctrl:
 setxkbmap -option ctrl:nocaps
-
+xmodmap -e "keycode 105 =Caps_Lock"	
 # make short-pressed Ctrl behave like Escape:
-xcape -e 'Control_L=Escape'
+# xcape -e 'Control_L=Escape'
